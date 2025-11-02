@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;700&display=swap');
+
+/* 🎀 VARIABLES GLOBALES */
+:root {
+  --bg-dark: #111;
+  --bg-light: #ffffff;
+  --text-light: #ffffff;
+  --text-dark: #222222;
+  --accent: #ff69b4;
+  --accent-hover: #ff85c1;
+
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+}
+
+/* 🌙 MODO OSCURO POR DEFECTO */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ✨ ENLACES */
+a {
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+/* 🎀 TÍTULOS */
+h1, h2 {
+  font-family: "Dela Gothic One", coursive;
+  color: var(--accent);
+  margin: 0.5rem 0;
+}
+h3, h4 {
+  font-family: "Inter", bold;
+  color: var(--accent);
+  margin: 0.4rem 0;
+}
+
+/* 💖 BOTONES */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--accent);
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent-hover);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* 🌞 MODO CLARO */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+  }
+
+  h1, h2, h3, h4 {
+    color: #a020f0;
+  }
+
+  button {
+    background-color: #a020f0;
+    color: #fff;
+  }
+
+  button:hover {
+    background-color: #b84cff;
+    box-shadow: 0 0 10px rgba(160, 32, 240, 0.4);
+  }
+}
+/* 💫 Alineación global */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
