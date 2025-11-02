@@ -258,26 +258,26 @@ const mangas = [
     titulo: "Doraemon",
     categoria: "Kodomo",
     descripcion: "Creado por Fujiko F. Fujio, narra las aventuras de Nobita, un niño torpe, y Doraemon, un gato robot del futuro que lo ayuda con inventos increíbles. Cada historia combina humor, imaginación y lecciones de vida sobre la responsabilidad y la amistad. Es uno de los mangas kodomo más influyentes y queridos de Japón y del mundo.",
-    imagen: "public/manga/doraemon/doraemon-portada.jpg",
+    imagen: "manga/doraemon/doraemon-portada.jpg",
     paginas: [
-    "public/manga/doraemon/tomo-1/01.jfif",
-    "public/manga/doraemon/tomo-1/02.jfif",
-    "public/manga/doraemon/tomo-1/03.jfif",
-    "public/manga/doraemon/tomo-1/04.jfif",
-    "public/manga/doraemon/tomo-1/05.jfif",
-    "public/manga/doraemon/tomo-1/06.jfif",
-    "public/manga/doraemon/tomo-1/07.jfif",
-    "public/manga/doraemon/tomo-1/08.jfif",
-    "public/manga/doraemon/tomo-1/09.jfif",
-    "public/manga/doraemon/tomo-1/10.jfif",
-    "public/manga/doraemon/tomo-1/11.jfif",
-    "public/manga/doraemon/tomo-1/12.jfif",
-    "public/manga/doraemon/tomo-1/13.jfif",
-    "public/manga/doraemon/tomo-1/14.jfif",
-    "public/manga/doraemon/tomo-1/15.jfif",
-    "public/manga/doraemon/tomo-1/16.jfif",
-    "public/manga/doraemon/tomo-1/17.jfif",
-    "public/manga/doraemon/tomo-1/18.jfif"
+    "manga/doraemon/tomo-1/01.jfif",
+    "manga/doraemon/tomo-1/02.jfif",
+    "manga/doraemon/tomo-1/03.jfif",
+    "manga/doraemon/tomo-1/04.jfif",
+    "manga/doraemon/tomo-1/05.jfif",
+    "manga/doraemon/tomo-1/06.jfif",
+    "manga/doraemon/tomo-1/07.jfif",
+    "manga/doraemon/tomo-1/08.jfif",
+    "manga/doraemon/tomo-1/09.jfif",
+    "manga/doraemon/tomo-1/10.jfif",
+    "manga/doraemon/tomo-1/11.jfif",
+    "manga/doraemon/tomo-1/12.jfif",
+    "manga/doraemon/tomo-1/13.jfif",
+    "manga/doraemon/tomo-1/14.jfif",
+    "manga/doraemon/tomo-1/15.jfif",
+    "manga/doraemon/tomo-1/16.jfif",
+    "manga/doraemon/tomo-1/17.jfif",
+    "manga/doraemon/tomo-1/18.jfif"
     ]
   },
   {
@@ -287,17 +287,17 @@ const mangas = [
     descripcion: "Obra de Konami Kanata, cuenta la vida cotidiana de Chi, una gatita curiosa que es adoptada por una familia amorosa. A través de sus pequeñas aventuras, muestra el mundo desde la mirada inocente de un gato. Es un manga kodomo tierno, relajante y visualmente adorable, ideal para todas las edades.",
     imagen: "public/manga/chis-sweet-home/chi-portada.jpeg",
     paginas: [
-      "public/manga/chis-sweet-home/tomo-1/01.jfif",
-      "public/manga/chis-sweet-home/tomo-1/02.jfif",
-      "public/manga/chis-sweet-home/tomo-1/03.jfif",
-      "public/manga/chis-sweet-home/tomo-1/04.jfif",
-      "public/manga/chis-sweet-home/tomo-1/05.jfif",
-      "public/manga/chis-sweet-home/tomo-1/06.jfif",
-      "public/manga/chis-sweet-home/tomo-1/07.jfif",
-      "public/manga/chis-sweet-home/tomo-1/08.jfif",
-      "public/manga/chis-sweet-home/tomo-1/09.jfif",
-      "public/manga/chis-sweet-home/tomo-1/10.jfif",
-      "public/manga/chis-sweet-home/tomo-1/11.jfif"
+      "manga/chis-sweet-home/tomo-1/01.jfif",
+      "manga/chis-sweet-home/tomo-1/02.jfif",
+      "manga/chis-sweet-home/tomo-1/03.jfif",
+      "manga/chis-sweet-home/tomo-1/04.jfif",
+      "manga/chis-sweet-home/tomo-1/05.jfif",
+      "manga/chis-sweet-home/tomo-1/06.jfif",
+      "manga/chis-sweet-home/tomo-1/07.jfif",
+      "manga/chis-sweet-home/tomo-1/08.jfif",
+      "manga/chis-sweet-home/tomo-1/09.jfif",
+      "manga/chis-sweet-home/tomo-1/10.jfif",
+      "manga/chis-sweet-home/tomo-1/11.jfif"
     ]
   },
  {
@@ -305,14 +305,14 @@ const mangas = [
     titulo: "Re:Zero",
     categoria: "Isekai",
     descripcion: "Creado por Tappei Nagatsuki, sigue a Subaru Natsuki, un joven transportado a otro mundo con la habilidad de volver en el tiempo al morir. Combina drama, suspenso y fantasía oscura, explorando el sacrificio, el dolor y la esperanza.",
-    imagen: "Public/manga/re-zero/re-zero-portada.jpg"
+    imagen: "manga/re-zero/re-zero-portada.jpg"
   },
     {
     id: 8,
     titulo: "Neon Genesis Evangelion",
     categoria: "Mecha",
     descripcion: "Creado por Hideaki Anno, es un manga y anime de mechas que sigue a Shinji Ikari, un joven que pilota el robot Evangelion para luchar contra seres llamados Ángeles. Más allá de la acción, explora emociones humanas, religión y existencialismo, siendo una obra icónica del anime moderno.",
-    imagen: "Public/manga/neon-genesis-evangelion/neon-genesis-evangelion-portada.jpg"
+    imagen: "manga/neon-genesis-evangelion/neon-genesis-evangelion-portada.jpg"
   },
     {
     id: 9,
