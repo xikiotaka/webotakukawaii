@@ -373,7 +373,7 @@ const mangas = [
     titulo: "Paradise Kiss",
     categoria: "Josei",
     descripcion: "Creado por Ai Yazawa, este manga josei sigue a Yukari Hayasaka, una estudiante que entra al mundo de la moda al conocer a un grupo de diseñadores excéntricos liderados por George. Explora la identidad, el amor y la independencia, con un estilo elegante y emocional característico de Yazawa.",
-    imagen: "/manga/paradise-kiss/paradise-kiss-portada.jpeg",
+    imagen: "public/manga/paradise-kiss/paradise-kiss-portada.jpeg",
     paginas: [
      "/manga/paradise-kiss/tomo-1/01.jpg",
      "/manga/paradise-kiss/tomo-1/02.jpg",
