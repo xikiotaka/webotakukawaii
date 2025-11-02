@@ -395,3 +395,4 @@ const mangas = [
 ];
 
 export default mangas;
+
