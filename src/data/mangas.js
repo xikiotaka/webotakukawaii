@@ -319,7 +319,7 @@ const mangas = [
     titulo: "Gokinjo Monogatari",
     categoria: "Shōjo",
     descripcion: "Creado por Ai Yazawa, este manga shōjo sigue a Mikako Kouda, una estudiante de moda que sueña con ser diseñadora, y a su amigo Tsutomu, mientras exploran el amor, la amistad y la juventud. Destaca por su estilo artístico moderno, su toque humorístico y emocional, y su enfoque en la autoexpresión y el crecimiento personal.",
-    imagen: "/src/assets/manga/gokinjo-monogatari/gokinjo-monogatari-portada.jpeg",
+    imagen: "public/manga/gokinjo-monogatari/gokinjo-monogatari-portada.jpeg",
     paginas: [
       "/src/assets/manga/gokinjo-monogatari/tomo-1/01.jpeg",
       "/src/assets/manga/gokinjo-monogatari/tomo-1/02.jpeg",
