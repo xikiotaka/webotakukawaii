@@ -285,7 +285,7 @@ const mangas = [
     titulo: "Chi's Sweet Home",
     categoria: "Kodomo",
     descripcion: "Obra de Konami Kanata, cuenta la vida cotidiana de Chi, una gatita curiosa que es adoptada por una familia amorosa. A través de sus pequeñas aventuras, muestra el mundo desde la mirada inocente de un gato. Es un manga kodomo tierno, relajante y visualmente adorable, ideal para todas las edades.",
-    imagen: "public/manga/chis-sweet-home/chi-portada.jpeg",
+    imagen: "manga/chis-sweet-home/chi-portada.jpeg",
     paginas: [
       "manga/chis-sweet-home/tomo-1/01.jfif",
       "manga/chis-sweet-home/tomo-1/02.jfif",
