@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <div className="home">
-      <h2>🌸 Lista de Mangas</h2>
+      <h2>¿Qué tenés ganas de leer?</h2>
 
       <div className="manga-list">
         {mangas.map((m) => (
