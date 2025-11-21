@@ -1,39 +1,103 @@
 .home {
   width: 100%;
-  max-width: 1200px; 
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 100px auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 3rem;
   color: #fff;
   background-color: transparent;
   box-sizing: border-box;
 }
 
-/* ✨ Título */
-.home h2 {
+
+.home-title {
+  width: 100%;
+  text-align: center;
   font-family: "Dela Gothic One", cursive;
   color: #ff69b4;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-/* 📚 Contenedor de mangas */
-.manga-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-  align-items: flex-start;
-  gap: 1.5rem;
-  margin-top: 2rem;
+.home-loading,
+.home-error {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Contenedor general de secciones */
+.home-sections {
   width: 100%;
-  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
-/* 🎴 Tarjetas */
+/* === Sección por categoría === */
+.categoria-section {
+  width: 100%;
+}
+
+.categoria-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.8rem;
+}
+
+.categoria-nombre {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 1.4rem;
+  color: #ff85c1;
+}
+
+.categoria-ver-mas {
+  background: none;
+  border: none;
+  color: #c4b5fd;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.categoria-ver-mas:hover {
+  color: #e9d5ff;
+  transform: translateX(2px);
+}
+
+/* Fila scrollable horizontal */
+.manga-row {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: transparent;
+}
+
+/* Scrollbar para navegadores WebKit */
+.manga-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.manga-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.manga-row::-webkit-scrollbar-thumb {
+  background: #ff69b4;
+  border-radius: 999px;
+}
+
+/* === Tarjetas de manga === */
 .manga-card {
-  width: 180px;
+  flex: 0 0 170px;          
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -43,24 +107,43 @@
 }
 
 .manga-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-6px);
   box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
 }
 
 .manga-card img {
   width: 100%;
-  height: 220px;
+  height: 230px;
   object-fit: cover;
+  display: block;
 }
 
-.manga-card h3 {
-  margin: 0.6rem 0 0.2rem;
+.manga-card-info {
+  padding: 0.6rem 0.6rem 0.7rem;
+}
+
+.manga-card-info h4 {
+  margin: 0;
   color: #ff69b4;
   font-weight: 700;
+  font-size: 0.95rem;
 }
 
-.manga-card p {
-  font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 0.8rem;
+/* Responsivo */
+@media (max-width: 768px) {
+  .home {
+    padding-inline: 1rem;
+  }
+
+  .categoria-nombre {
+    font-size: 1.2rem;
+  }
+
+  .manga-card {
+    flex: 0 0 150px;
+  }
+
+  .manga-card img {
+    height: 210px;
+  }
 }

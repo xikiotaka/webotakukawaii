@@ -13,7 +13,7 @@ header {
   font-family: "Inter", sans-serif;
 }
 
-/* 🌸 Contenedores */
+/* Contenedores */
 .header-left,
 .header-center,
 .header-right {
@@ -21,7 +21,7 @@ header {
   align-items: center;
 }
 
-/* 🌸 Logo */
+/* Logo */
 
 .logo {
   height: 60px;
@@ -48,7 +48,7 @@ header {
   animation: pulsePink 0.8s ease-in-out;
 }
 
-/* 🌸 Botón base */
+/* Botón base */
 header button {
   background-color: transparent;
   border: none;
@@ -61,7 +61,7 @@ header button {
   transition: all 0.3s ease;
 }
 
-/* 🌸 Botón MANGAS */
+/* Botón MANGAS */
 .manga-btn {
   color: #FF1493;
   padding: 0.4rem 2rem 0.4rem 2rem;
@@ -73,7 +73,7 @@ header button {
   box-shadow: 0 0 10px rgba(255, 105, 180, 0.6);
 }
 
-/* 🌸 Botón LOG IN */
+/* Botón LOG IN */
 .login-btn {
   color: #8A2BE2;
 }
@@ -84,7 +84,7 @@ header button {
   box-shadow: 0 0 10px rgba(255, 105, 180, 0.6);
 }
 
-/* 🌸 Botón REGISTRO */
+/* Botón REGISTRO */
 .register-btn {
   color: #E0E0E0;
   margin-left: 0.6rem;
@@ -95,4 +95,59 @@ header button {
   background-color: #F5B11B;
   color: #000;
   box-shadow: 0 0 10px rgba(255, 105, 180, 0.6);
+}
+/* === DROPDOWN MENU === */
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  background: #ffd6ef;
+  color: #8b5cf6;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 105, 180, 0.4);
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: fadeDown 0.30s ease forwards;
+  z-index: 999;
+  min-width: 180px;
+  white-space: nowrap;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-item {
+  background: #ffb6e6;
+  color: #8b5cf6;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.2s ease;
+  text-align: left;
+  width: 200px;
+}
+
+.dropdown-item:hover {
+  background: #ff9cdd;
+  transform: scale(1.04);
+}
+
+.dropdown-item:active {
+  transform: scale(0.97);
+}
+
+.header-left {
+  position: relative;
 }

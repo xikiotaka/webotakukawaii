@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;700&display=swap');
+
+.categoria-page {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem 3rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.categoria-title {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 2.3rem;
+  color: #8b5cf6;
+  margin-bottom: 0.5rem;
+}
+
+.categoria-subtitle {
+  color: #ff69b4;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* estados */
+.categoria-loading,
+.categoria-error {
+  font-weight: 600;
+  color: #ff69b4;
+}
+
+.categoria-empty p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* grid de cards */
+.categoria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1.8rem;
+  justify-items: center;
+}
+
+/* card de manga */
+.categoria-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 240px;
+}
+
+.categoria-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.25);
+}
+
+.categoria-card-image-wrapper {
+  width: 100%;
+  height: 290px;
+  overflow: hidden;
+}
+
+.categoria-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categoria-card-body {
+  padding: 0.9rem 0.8rem 1rem;
+}
+
+.categoria-card-title {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 1.1rem;
+  color: #ff69b4;
+  margin-bottom: 0.4rem;
+}
+
+.categoria-card-category {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* link volver */
+.categoria-back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #ff69b4;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.categoria-back-link:hover {
+  color: #ff1493;
+  transform: translateX(-3px);
+}
+
+/* responsivo */
+@media (max-width: 768px) {
+  .categoria-title {
+    font-size: 1.8rem;
+  }
+
+  .categoria-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+}

@@ -1,3 +1,4 @@
+/* === CONTENEDOR GENERAL === */
 .manga-detail {
   margin: 3rem auto;
   padding: 2rem;
@@ -9,20 +10,29 @@
   font-family: "Inter", sans-serif;
 }
 
+/* === TÍTULOS === */
 .manga-detail h2 {
   font-family: "Dela Gothic One", cursive;
   color: #ff69b4;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
-.manga-detail img {
-  width: 80%;
-  max-width: 600px;
+.manga-detail .kanji {
+  font-size: 1.4rem;
+  color: #ff85c1;
+}
+
+/* === IMAGEN PRINCIPAL === */
+.manga-detail .cover {
+  width: 45%;
+  max-width: 350px;
   border-radius: 15px;
-  margin: 1rem 0;
-  box-shadow: none;
+  margin: 1.5rem auto 1rem;
+  display: block;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.4);
 }
 
+/* === TEXTO GENERAL === */
 .manga-detail p {
   color: #333;
   font-size: 1rem;
@@ -30,81 +40,110 @@
   margin: 0.5rem 0;
 }
 
-/* 🎀 Botón de cierre o navegación */
-.manga-detail button {
-  background-color: #ff69b4;
-  color: #fff;
+/* === BOTÓN DE FAVORITOS (KAWAII) === */
+.fav-btn {
+  background: #ff6ad5;
+  color: white;
+  font-weight: bold;
   border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 20px;
-  font-weight: 600;
+  padding: 0.7rem 1.3rem;
+  border-radius: 25px;
   cursor: pointer;
-  transition: all 0.3s ease;
   margin-top: 1.2rem;
+  font-size: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
-.manga-detail button:hover {
-  background-color: #ff85c1;
-  box-shadow: 0 0 10px #ff69b4;
+.fav-btn:hover {
+  background: #ff40c8;
+  box-shadow: 0 0 12px rgba(255, 105, 180, 0.7);
+  transform: scale(1.07);
 }
 
-/* 🌸 Vista de lectura del manga */
-.manga-reader {
-  position: relative;
+.fav-btn.activo {
+  background: #b84bff;
+  box-shadow: 0 0 12px rgba(168, 108, 255, 0.7);
+}
+
+.fav-btn.activo:hover {
+  background: #9b30ff;
+}
+
+/* === SECCIÓN TOMOS === */
+.tomos-section {
+  margin-top: 3rem;
+}
+
+.tomos-section h3 {
+  font-family: "Dela Gothic One", cursive;
+  color: #ff69b4;
+  margin-bottom: 1.5rem;
+}
+
+/* Grid de tomos */
+.tomos-grid {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   justify-content: center;
-  margin: 2rem auto;
-  max-width: 1000px; 
-  overflow: visible; 
 }
 
-.manga-page {
+.tomo-card {
+  background-color: #ffe4f0;
+  border-radius: 18px;
+  padding: 1rem;
+  width: 180px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 6px 12px rgba(255, 182, 193, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tomo-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 10px 18px rgba(255, 182, 193, 0.8);
+}
+
+.tomo-img {
   width: 100%;
-  max-width: 900px; 
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 182, 193, 0.3);
-  transition: transform 0.3s ease;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
 }
 
-.manga-page:hover {
-  transform: scale(1.01);
+.tomo-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #ff3f93;
+  text-align: center;
 }
 
-/* 💖 Botones de navegación (izquierda / derecha) */
-.nav-button {
-  position: absolute;
-  bottom: -70px; 
-  width: 45px;
-  height: 45px;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.3s ease;
-  opacity: 0.9;
-  border: none;
-  background: none;
-  filter: none;
-  z-index: 10;
-}
-
-.nav-button:hover {
-  transform: scale(1.1);
-  opacity: 1;
-}
-
-.nav-button.right {
-  right: 20%;
-}
-
-.nav-button.left {
-  left: 20%;
-}
-
-.manga-reader {
-  position: relative;
+/* === BOTONES DE REGRESO === */
+.back-buttons {
   display: flex;
-  align-items: center;
   justify-content: center;
-  max-width: 900px;
-  margin: 0 auto 6rem; 
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.detail-btn {
+  background-color: #ffb6e6;
+  padding: 0.7rem 1.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #8b5cf6;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 10px rgba(255, 182, 230, 0.5);
+}
+
+.detail-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 182, 230, 0.8);
+}
+
+.detail-btn:active {
+  transform: scale(0.95);
 }
