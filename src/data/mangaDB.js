@@ -1028,6 +1028,629 @@ let mangasDB = [
   ]
 },
 
+{
+  id: 18,
+  titulo: "Pokémon Adventures",
+  kanji: "ポケットモンスター SPECIAL",
+  categoria: "🐣 Kodomo 🐣",
+  descripcion:
+    "Sigue a distintos entrenadores Pokémon, como Red, en aventuras llenas de amistad, exploración y desafíos. Es Kodomo por su tono positivo, educativo y lleno de criaturas amigables.",
+  imagen: "/mangas/kodomo/pokemon/pokemon-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/kodomo/pokemon/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/pokemon/tomo-1/01.jpeg",
+        "/mangas/kodomo/pokemon/tomo-1/02.jpeg",
+        "/mangas/kodomo/pokemon/tomo-1/03.jpeg",
+        "/mangas/kodomo/pokemon/tomo-1/04.jpeg",
+        "/mangas/kodomo/pokemon/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/kodomo/pokemon/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/pokemon/tomo-2/01.jpeg",
+        "/mangas/kodomo/pokemon/tomo-2/02.jpeg",
+        "/mangas/kodomo/pokemon/tomo-2/03.jpeg",
+        "/mangas/kodomo/pokemon/tomo-2/04.jpeg",
+        "/mangas/kodomo/pokemon/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/kodomo/pokemon/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/pokemon/tomo-3/01.jpeg",
+        "/mangas/kodomo/pokemon/tomo-3/02.jpeg",
+        "/mangas/kodomo/pokemon/tomo-3/03.jpeg",
+        "/mangas/kodomo/pokemon/tomo-3/04.jpeg",
+        "/mangas/kodomo/pokemon/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 19,
+  titulo: "Yo-kai Watch ~Waku Waku Nyanderful Days~",
+  kanji: "妖怪ウォッチ ～わくわくにゃんだふるデイズ",
+  categoria: "🐣 Kodomo 🐣",
+  descripcion:
+    "Un manga adorable y humorístico que muestra el día a día de Jibanyan y otros Yo-kai, viviendo pequeñas aventuras divertidas y llenas de ternura.",
+  imagen: "/mangas/kodomo/yo-kai-watch/yo-kai-watch-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/kodomo/yo-kai-watch/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/yo-kai-watch/tomo-1/01.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/02.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/03.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/04.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/05.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/06.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/07.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/08.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/09.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-1/10.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/kodomo/yo-kai-watch/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/yo-kai-watch/tomo-2/01.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-2/02.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-2/03.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-2/04.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/kodomo/yo-kai-watch/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/yo-kai-watch/tomo-3/01.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-3/02.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-3/03.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-3/04.jpeg",
+        "/mangas/kodomo/yo-kai-watch/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 20,
+  titulo: "Kotarou wa hitorigurashi",
+  kanji: "コタローは1人暮らし",
+  categoria: "🐣 Kodomo 🐣",
+  descripcion:
+    "Sigue a Kotarō, un niño pequeño que vive completamente solo en un apartamento, sorprendiendo a sus vecinos. Con humor y ternura, el manga explora sus vínculos con los adultos que lo rodean y los secretos detrás de su independencia.",
+  imagen: "/mangas/kodomo/kotarou-wa-hitorigurashi/kotarou-wa-hitorigurashi-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-1/01.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-1/02.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-1/03.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-1/04.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-2/01.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-2/02.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-2/03.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-2/04.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-3/01.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-3/02.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-3/03.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-3/04.jpeg",
+        "/mangas/kodomo/kotarou-wa-hitorigurashi/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 21,
+  titulo: "Sidonia no Kishi",
+  kanji: "シドニアの騎士",
+  categoria: "🤖 Mecha 🤖",
+  descripcion:
+    "En una nave que huye por el espacio, pilotos en mechas luchan contra los Gauna, combinando ciencia ficción oscura, soledad y supervivencia.",
+  imagen: "/mangas/mecha/sidonia-no-kishi/sidonia-no-kishi-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/mecha/sidonia-no-kishi/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/mecha/sidonia-no-kishi/tomo-1/01.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-1/02.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-1/03.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-1/04.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/mecha/sidonia-no-kishi/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/mecha/sidonia-no-kishi/tomo-2/01.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-2/02.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-2/03.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-2/04.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/mecha/sidonia-no-kishi/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/mecha/sidonia-no-kishi/tomo-3/01.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-3/02.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-3/03.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-3/04.jpeg",
+        "/mangas/mecha/sidonia-no-kishi/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 22,
+  titulo: "Mazinger Z",
+  kanji: "マジンガーZ",
+  categoria: "🤖 Mecha 🤖",
+  descripcion:
+    "El joven Kōji Kabuto pilota al poderoso robot Mazinger Z para detener al Doctor Hell, marcando el nacimiento del mecha piloted clásico.",
+  imagen: "/mangas/mecha/mazinger-z/mazinger-z-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/mecha/mazinger-z/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/mecha/mazinger-z/tomo-1/01.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-1/02.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-1/03.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-1/04.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/mecha/mazinger-z/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/mecha/mazinger-z/tomo-2/01.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-2/02.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-2/03.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-2/04.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/mecha/mazinger-z/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/mecha/mazinger-z/tomo-3/01.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-3/02.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-3/03.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-3/04.jpeg",
+        "/mangas/mecha/mazinger-z/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 23,
+  titulo: "Full Metal Panic!",
+  kanji: "フルメタル・パニック!",
+  categoria: "🤖 Mecha 🤖",
+  descripcion:
+    "Un soldado adolescente protege a una estudiante terca mientras combate en mechas, mezclando acción militar, comedia escolar y romance.",
+  imagen: "/mangas/mecha/full-metal-panic/full-metal-panic-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/mecha/full-metal-panic/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/mecha/full-metal-panic/tomo-1/01.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-1/02.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-1/03.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-1/04.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/mecha/full-metal-panic/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/mecha/full-metal-panic/tomo-2/01.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-2/02.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-2/03.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-2/04.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/mecha/full-metal-panic/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/mecha/full-metal-panic/tomo-3/01.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-3/02.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-3/03.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-3/04.jpeg",
+        "/mangas/mecha/full-metal-panic/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 24,
+  titulo: "Eighty Six",
+  kanji: "エイティシックス",
+  categoria: "🤖 Mecha 🤖",
+  descripcion:
+    "En medio de una guerra futurista, jóvenes pilotos marginados combaten dentro de drones/mechas llamados Juggernauts, mientras enfrentan discriminación, trauma y secretos militares.",
+  imagen: "/mangas/mecha/eighty-six/eighty-six-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/mecha/eighty-six/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/mecha/eighty-six/tomo-1/01.jpeg",
+        "/mangas/mecha/eighty-six/tomo-1/02.jpeg",
+        "/mangas/mecha/eighty-six/tomo-1/03.jpeg",
+        "/mangas/mecha/eighty-six/tomo-1/04.jpeg",
+        "/mangas/mecha/eighty-six/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/mecha/eighty-six/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/mecha/eighty-six/tomo-2/01.jpeg",
+        "/mangas/mecha/eighty-six/tomo-2/02.jpeg",
+        "/mangas/mecha/eighty-six/tomo-2/03.jpeg",
+        "/mangas/mecha/eighty-six/tomo-2/04.jpeg",
+        "/mangas/mecha/eighty-six/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/mecha/eighty-six/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/mecha/eighty-six/tomo-3/01.jpeg",
+        "/mangas/mecha/eighty-six/tomo-3/02.jpeg",
+        "/mangas/mecha/eighty-six/tomo-3/03.jpeg",
+        "/mangas/mecha/eighty-six/tomo-3/04.jpeg",
+        "/mangas/mecha/eighty-six/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 25,
+  titulo: "Digimon Adventure",
+  kanji: "デジモンアドベンチャー",
+  categoria: "🌀 Isekai 🌀",
+  descripcion:
+    "Un grupo de niños llega al Mundo Digital, donde junto a sus Digimon enfrentan desafíos mientras descubren su propio crecimiento y vínculos.",
+  imagen: "/mangas/isekai/digimon/digimon-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/isekai/digimon/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/isekai/digimon/tomo-1/01.jpeg",
+        "/mangas/isekai/digimon/tomo-1/02.jpeg",
+        "/mangas/isekai/digimon/tomo-1/03.jpeg",
+        "/mangas/isekai/digimon/tomo-1/04.jpeg",
+        "/mangas/isekai/digimon/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/isekai/digimon/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/isekai/digimon/tomo-2/01.jpeg",
+        "/mangas/isekai/digimon/tomo-2/02.jpeg",
+        "/mangas/isekai/digimon/tomo-2/03.jpeg",
+        "/mangas/isekai/digimon/tomo-2/04.jpeg",
+        "/mangas/isekai/digimon/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/isekai/digimon/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/isekai/digimon/tomo-3/01.jpeg",
+        "/mangas/isekai/digimon/tomo-3/02.jpeg",
+        "/mangas/isekai/digimon/tomo-3/03.jpeg",
+        "/mangas/isekai/digimon/tomo-3/04.jpeg",
+        "/mangas/isekai/digimon/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 26,
+  titulo: "So I'm a Spider, So What?",
+  kanji: "蜘蛛ですが、なにか？",
+  categoria: "🌀 Isekai 🌀",
+  descripcion:
+    "Sigue a una estudiante que reencarna como una araña en un peligroso laberinto lleno de monstruos. Usando ingenio y evolución constante, lucha por sobrevivir mientras descubre secretos sobre el mundo y su propia existencia.",
+  imagen: "/mangas/isekai/so-im-a-spider/so-im-a-spider-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/isekai/so-im-a-spider/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/isekai/so-im-a-spider/tomo-1/01.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-1/02.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-1/03.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-1/04.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/isekai/so-im-a-spider/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/isekai/so-im-a-spider/tomo-2/01.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-2/02.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-2/03.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-2/04.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/isekai/so-im-a-spider/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/isekai/so-im-a-spider/tomo-3/01.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-3/02.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-3/03.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-3/04.jpeg",
+        "/mangas/isekai/so-im-a-spider/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 28,
+  titulo: "Sword Art Online",
+  kanji: "ソードアート・オンライン",
+  categoria: "🌀 Isekai 🌀",
+  descripcion:
+    "Kirito queda atrapado en un VRMMO donde morir en el juego significa morir en la vida real, luchando por sobrevivir y liberar a los jugadores.",
+  imagen: "/mangas/isekai/sword-art-online/sword-art-online-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/isekai/sword-art-online/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/isekai/sword-art-online/tomo-1/01.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-1/02.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-1/03.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-1/04.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/isekai/sword-art-online/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/isekai/sword-art-online/tomo-2/01.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-2/02.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-2/03.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-2/04.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/isekai/sword-art-online/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/isekai/sword-art-online/tomo-3/01.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-3/02.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-3/03.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-3/04.jpeg",
+        "/mangas/isekai/sword-art-online/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 29,
+  titulo: "Tate no Yuusha no Nariagari",
+  kanji: "盾の勇者の成り上がり",
+  categoria: "🌀 Isekai 🌀",
+  descripcion:
+    "Naofumi es invocado como el Héroe del Escudo, pero traicionado desde el inicio; deberá levantarse desde cero para sobrevivir y cambiar su destino.",
+  imagen: "/mangas/isekai/tate-no-yuusha-no-nariagari/tate-no-yuusha-no-nariagari-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-1/01.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-1/02.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-1/03.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-1/04.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-2/01.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-2/02.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-2/03.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-2/04.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-3/01.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-3/02.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-3/03.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-3/04.jpeg",
+        "/mangas/isekai/tate-no-yuusha-no-nariagari/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 30,
+  titulo: "Tate no Yuusha no Nariagari",
+  kanji: "盾の勇者の成り上がり",
+  categoria: "🌀 Isekai 🌀",
+  descripcion:
+    "Naofumi es invocado como el Héroe del Escudo, pero traicionado desde el inicio; deberá levantarse desde cero para sobrevivir y cambiar su destino.",
+  imagen: "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/kono-subarashii-sekai-ni-shukufuku-wo-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-1/01.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-1/02.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-1/03.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-1/04.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-2/01.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-2/02.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-2/03.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-2/04.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-3/01.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-3/02.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-3/03.jpeg",
+        "/mangas/isekai/kono-subarashii-sekai-ni-shukufuku-wo/tomo-3/04.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 31,
+  titulo: "Dragon Ball",
+  kanji: "ドラゴンボール",
+  categoria: "⚔️ Shonen ⚔️",
+  descripcion:
+    "Naofumi es invocado como el Héroe del Escudo, pero traicionado desde el inicio; deberá levantarse desde cero para sobrevivir y cambiar su destino.",
+  imagen: "/mangas/shonen/dragon-ball/dragon-ball-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen/dragon-ball/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen/dragon-ball/tomo-1/01.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-1/02.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-1/03.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-1/04.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen/dragon-ball/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen/dragon-ball/tomo-2/01.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-2/02.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-2/03.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-2/04.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/shonen/dragon-ball/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shonen/dragon-ball/tomo-3/01.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-3/02.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-3/03.jpeg",
+        "/mangas/shonen/dragon-ball/tomo-3/04.jpeg"
+      ]
+    }
+  ]
+},
+
 ];
 
 // Helper para próximo ID
