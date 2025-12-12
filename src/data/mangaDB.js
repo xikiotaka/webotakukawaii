@@ -1177,53 +1177,6 @@ let mangasDB = [
   ]
 },
 
-{
-  id: 21,
-  titulo: "Sidonia no Kishi",
-  kanji: "シドニアの騎士",
-  categoria: "🤖 Mecha 🤖",
-  descripcion:
-    "En una nave que huye por el espacio, pilotos en mechas luchan contra los Gauna, combinando ciencia ficción oscura, soledad y supervivencia.",
-  imagen: "/mangas/mecha/sidonia-no-kishi/sidonia-no-kishi-portada.jpeg",
-  tomos: [
-    {
-      id: 1,
-      nombre: "Tomo 1",
-      imagen: "/mangas/mecha/sidonia-no-kishi/tomo-1/01.jpeg",
-      paginas: [
-        "/mangas/mecha/sidonia-no-kishi/tomo-1/01.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-1/02.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-1/03.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-1/04.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-1/05.jpeg"
-      ]
-    },
-    {
-      id: 2,
-      nombre: "Tomo 2",
-      imagen: "/mangas/mecha/sidonia-no-kishi/tomo-2/01.jpeg",
-      paginas: [
-        "/mangas/mecha/sidonia-no-kishi/tomo-2/01.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-2/02.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-2/03.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-2/04.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-2/05.jpeg"
-      ]
-    },
-    {
-      id: 3,
-      nombre: "Tomo 3",
-      imagen: "/mangas/mecha/sidonia-no-kishi/tomo-3/01.jpeg",
-      paginas: [
-        "/mangas/mecha/sidonia-no-kishi/tomo-3/01.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-3/02.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-3/03.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-3/04.jpeg",
-        "/mangas/mecha/sidonia-no-kishi/tomo-3/05.jpeg"
-      ]
-    }
-  ]
-},
 
 {
   id: 22,
@@ -1646,6 +1599,1494 @@ let mangasDB = [
         "/mangas/shonen/dragon-ball/tomo-3/02.jpeg",
         "/mangas/shonen/dragon-ball/tomo-3/03.jpeg",
         "/mangas/shonen/dragon-ball/tomo-3/04.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 32,
+  titulo: "Bleach",
+  kanji: "ブリーチ",
+  categoria: "⚔️ Shonen ⚔️",
+  descripcion:
+    "De Tite Kubo, narra cómo Ichigo Kurosaki obtiene poderes de Shinigami y protege a los vivos y espíritus de criaturas llamadas HollowsDestaca por su estilo visual, mundos espirituales y combates estilizados.",
+  imagen: "/mangas/shonen/bleach/bleach-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen/bleach/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen/bleach/tomo-1/01.jpeg",
+        "/mangas/shonen/bleach/tomo-1/02.jpeg",
+        "/mangas/shonen/bleach/tomo-1/03.jpeg",
+        "/mangas/shonen/bleach/tomo-1/04.jpeg",
+        "/mangas/shonen/bleach/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen/bleach/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen/bleach/tomo-2/01.jpeg",
+        "/mangas/shonen/bleach/tomo-2/02.jpeg",
+        "/mangas/shonen/bleach/tomo-2/03.jpeg",
+        "/mangas/shonen/bleach/tomo-2/04.jpeg",
+        "/mangas/shonen/bleach/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/shonen/bleach/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shonen/bleach/tomo-3/01.jpeg",
+        "/mangas/shonen/bleach/tomo-3/02.jpeg",
+        "/mangas/shonen/bleach/tomo-3/03.jpeg",
+        "/mangas/shonen/bleach/tomo-3/04.jpeg",
+        "/mangas/shonen/bleach/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 33,
+  titulo: "My Hero Academia",
+  kanji: "僕のヒーローアカデミア",
+  categoria: "⚔️ Shonen ⚔️",
+  descripcion:
+    "De Kōhei Horikoshi, sigue a Izuku Midoriya, un chico sin poderes en un mundo lleno de héroes, que hereda la habilidad de su ídolo. Explora heroísmo, responsabilidad y crecimiento, con acción escolar y emocional.",
+  imagen: "/mangas/shonen/my-hero-academia/my-hero-academia-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 0",
+      imagen: "/mangas/shonen/my-hero-academia/tomo-0/01.jpeg",
+      paginas: [
+        "/mangas/shonen/my-hero-academia/tomo-0/01.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-0/02.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-0/03.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-0/04.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-0/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen/my-hero-academia/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen/my-hero-academia/tomo-1/01.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-1/02.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-1/03.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-1/04.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen/my-hero-academia/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen/my-hero-academia/tomo-2/01.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-2/02.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-2/03.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-2/04.jpeg",
+        "/mangas/shonen/my-hero-academia/tomo-2/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 34,
+  titulo: "Jujutsu Kaisen",
+  kanji: "呪術廻戦",
+  categoria: "⚔️ Shonen ⚔️",
+  descripcion:
+    "Creado por Gege Akutami, trata de Yuji Itadori, quien se une a la escuela de hechicería tras ingerir un poderoso espíritu maldito. Es un shōnen oscuro con terror, artes místicas y dilemas humanos.",
+  imagen: "/mangas/shonen/jujutsu-kaisen/jujutsu-kaisen-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen/jujutsu-kaisen/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen/jujutsu-kaisen/tomo-1/01.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-1/02.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-1/03.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-1/04.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen/jujutsu-kaisen/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen/jujutsu-kaisen/tomo-2/01.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-2/02.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-2/03.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-2/04.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/shonen/jujutsu-kaisen/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shonen/jujutsu-kaisen/tomo-3/01.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-3/02.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-3/03.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-3/04.jpeg",
+        "/mangas/shonen/jujutsu-kaisen/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 35,
+  titulo: "Given",
+  kanji: "ギヴン",
+  categoria: "🌈 Shonen-ai 💙",
+  descripcion:
+    "Narra la relación entre dos chicos unidos por la música, el duelo emocional y el crecimiento personal dentro de una banda.",
+  imagen: "/mangas/shonen-ai/given/given-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen-ai/given/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/given/tomo-1/01.jpeg",
+        "/mangas/shonen-ai/given/tomo-1/02.jpeg",
+        "/mangas/shonen-ai/given/tomo-1/03.jpeg",
+        "/mangas/shonen-ai/given/tomo-1/04.jpeg",
+        "/mangas/shonen-ai/given/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen-ai/given/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/given/tomo-2/01.jpeg",
+        "/mangas/shonen-ai/given/tomo-2/02.jpeg",
+        "/mangas/shonen-ai/given/tomo-2/03.jpeg",
+        "/mangas/shonen-ai/given/tomo-2/04.jpeg",
+        "/mangas/shonen-ai/given/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/shonen-ai/given/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/given/tomo-3/01.jpeg",
+        "/mangas/shonen-ai/given/tomo-3/02.jpeg",
+        "/mangas/shonen-ai/given/tomo-3/03.jpeg",
+        "/mangas/shonen-ai/given/tomo-3/04.jpeg",
+        "/mangas/shonen-ai/given/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 36,
+  titulo: "Ten Count",
+  kanji: "テンカウント",
+  categoria: "🌈 Shonen-ai 💙",
+  descripcion:
+    "Un terapeuta y su paciente, quien sufre misofobia, desarrollan una relación íntima mientras exploran emociones profundas y traumas.",
+  imagen: "/mangas/shonen-ai/ten-count/ten-count-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen-ai/ten-count/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/ten-count/tomo-1/01.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-1/02.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-1/03.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-1/04.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen-ai/ten-count/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/ten-count/tomo-2/01.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-2/02.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-2/03.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-2/04.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/shonen-ai/ten-count/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/ten-count/tomo-3/01.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-3/02.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-3/03.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-3/04.jpeg",
+        "/mangas/shonen-ai/ten-count/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 37,
+  titulo: "Hitorijime My Hero",
+  kanji: "ひとりじめマイヒーロー",
+  categoria: "🌈 Shonen-ai 💙",
+  descripcion:
+    "Un profesor y un estudiante mayor se ven envueltos en una relación tierna, protectora y llena de crecimiento emocional.",
+  imagen: "/mangas/shonen-ai/hitorijime-my-hero/hitorijime-my-hero-portada.jpg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen-ai/hitorijime-my-hero/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-1/01.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-1/02.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-1/03.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-1/04.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen-ai/hitorijime-my-hero/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-2/01.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-2/02.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-2/03.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-2/04.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/shonen-ai/hitorijime-my-hero/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-3/01.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-3/02.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-3/03.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-3/04.jpeg",
+        "/mangas/shonen-ai/hitorijime-my-hero/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 38,
+  titulo: "Love Stage!!",
+  kanji: "ラブステージ!!",
+  categoria: "🌈 Shonen-ai 💙",
+  descripcion:
+    "Izumi, un chico con familia famosa, termina trabajando con un actor que cree que él es mujer, iniciando una historia cómica y romántica.",
+  imagen: "/mangas/shonen-ai/love-stage/love-stage-portada.jpg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 0",
+      imagen: "/mangas/shonen-ai/love-stage/tomo-0/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/love-stage/tomo-0/01.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-0/02.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-0/03.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-0/04.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-0/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shonen-ai/love-stage/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/love-stage/tomo-1/01.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-1/02.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-1/03.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-1/04.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shonen-ai/love-stage/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shonen-ai/love-stage/tomo-2/01.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-2/02.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-2/03.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-2/04.jpeg",
+        "/mangas/shonen-ai/love-stage/tomo-2/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 39,
+  titulo: "Tokyo Ghoul",
+  kanji: "東京喰種トーキョーグール",
+  categoria: "🗡️ Seinen 🗡️",
+  descripcion:
+    "La vida de Kaneki cambia cuando se convierte en un ghoul, seres que solo pueden comer carne humana. Mientras lucha por sobrevivir entre humanos y ghouls, debe enfrentarse a su nueva naturaleza y a un mundo lleno de conflicto y dolor.",
+  imagen: "/mangas/seinen/tokyo-ghoul/tokyo-ghoul-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/tokyo-ghoul/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/seinen/tokyo-ghoul/tomo-1/01.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-1/02.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-1/03.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-1/04.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/tokyo-ghoul/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/seinen/tokyo-ghoul/tomo-2/01.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-2/02.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-2/03.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-2/04.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/seinen/tokyo-ghoul/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/seinen/tokyo-ghoul/tomo-3/01.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-3/02.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-3/03.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-3/04.jpeg",
+        "/mangas/seinen/tokyo-ghoul/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 40,
+  titulo: "Monster",
+  kanji: "モンスター",
+  categoria: "🗡️ Seinen 🗡️",
+  descripcion:
+    "El doctor Kenzo Tenma persigue a Johan, un hombre al que salvó y que se convierte en un asesino. Thriller psicológico sobre moralidad, identidad y el origen del mal.",
+  imagen: "/mangas/seinen/monster/monster-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/monster/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/seinen/monster/tomo-1/01.jpeg",
+        "/mangas/seinen/monster/tomo-1/02.jpeg",
+        "/mangas/seinen/monster/tomo-1/03.jpeg",
+        "/mangas/seinen/monster/tomo-1/04.jpeg",
+        "/mangas/seinen/monster/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/monster/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/seinen/monster/tomo-2/01.jpeg",
+        "/mangas/seinen/monster/tomo-2/02.jpeg",
+        "/mangas/seinen/monster/tomo-2/03.jpeg",
+        "/mangas/seinen/monster/tomo-2/04.jpeg",
+        "/mangas/seinen/monster/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/seinen/monster/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/seinen/monster/tomo-3/01.jpeg",
+        "/mangas/seinen/monster/tomo-3/02.jpeg",
+        "/mangas/seinen/monster/tomo-3/03.jpeg",
+        "/mangas/seinen/monster/tomo-3/04.jpeg",
+        "/mangas/seinen/monster/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 41,
+  titulo: "Vagabound",
+  kanji: "モンスター",
+  categoria: "🗡️ Seinen 🗡️",
+  descripcion:
+    "Adaptación de la vida del espadachín Miyamoto Musashi, mezclando filosofía, arte detallado y combates realistas en una narrativa profunda.",
+  imagen: "/mangas/seinen/vagabound/vagabound-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/vagabound/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/seinen/vagabound/tomo-1/01.jpeg",
+        "/mangas/seinen/vagabound/tomo-1/02.jpeg",
+        "/mangas/seinen/vagabound/tomo-1/03.jpeg",
+        "/mangas/seinen/vagabound/tomo-1/04.jpeg",
+        "/mangas/seinen/vagabound/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/vagabound/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/seinen/vagabound/tomo-2/01.jpeg",
+        "/mangas/seinen/vagabound/tomo-2/02.jpeg",
+        "/mangas/seinen/vagabound/tomo-2/03.jpeg",
+        "/mangas/seinen/vagabound/tomo-2/04.jpeg",
+        "/mangas/seinen/vagabound/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/seinen/vagabound/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/seinen/vagabound/tomo-3/01.jpeg",
+        "/mangas/seinen/vagabound/tomo-3/02.jpeg",
+        "/mangas/seinen/vagabound/tomo-3/03.jpeg",
+        "/mangas/seinen/vagabound/tomo-3/04.jpeg",
+        "/mangas/seinen/vagabound/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 42,
+  titulo: "Vinland Saga",
+  kanji: "ヴィンランド・サガ",
+  categoria: "🗡️ Seinen 🗡️",
+  descripcion:
+    "Sigue a Thorfinn, un joven guerrero vikingo que busca venganza y luego un nuevo propósito. Aventura histórica madura con temas de violencia, redención y libertad.",
+  imagen: "/mangas/seinen/vinland-saga/vinland-saga-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/seinen/vinland-saga/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/seinen/vinland-saga/tomo-1/01.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-1/02.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-1/03.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-1/04.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 2",
+      imagen: "/mangas/seinen/vinland-saga/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/seinen/vinland-saga/tomo-2/01.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-2/02.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-2/03.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-2/04.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-2/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 3",
+      imagen: "/mangas/seinen/vinland-saga/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/seinen/vinland-saga/tomo-3/01.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-3/02.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-3/03.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-3/04.jpeg",
+        "/mangas/seinen/vinland-saga/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 42,
+  titulo: "Sailor Moon",
+  kanji: "美少女戦士セーラームーン",
+  categoria: "✨ Majou-shoujo ✨",
+  descripcion:
+    "Usagi descubre que es una guerrera mágica destinada a proteger la Tierra de fuerzas oscuras. Combina romance, transformación y heroísmo icónico.",
+  imagen: "/mangas/majou-shoujo/sailor-moon/sailor-moon-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/sailor-moon/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/sailor-moon/tomo-1/01.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-1/02.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-1/03.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-1/04.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/sailor-moon/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/sailor-moon/01.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/02.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/03.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/04.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/majou-shoujo/sailor-moon/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/sailor-moon/tomo-3/01.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-3/02.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-3/03.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-3/04.jpeg",
+        "/mangas/majou-shoujo/sailor-moon/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 43,
+  titulo: "Puella Magi Madoka Magica",
+  kanji: "魔法少女まどか☆マギカ",
+  categoria: "✨ Majou-shoujo ✨",
+  descripcion:
+    "Madoka recibe la oportunidad de convertirse en chica mágica, pero descubre que este mundo tiene un alto costo emocional. Es una visión más oscura del género.",
+  imagen: "/mangas/majou-shoujo/madoka-magica/madoka-magica-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/madoka-magica/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/madoka-magica/tomo-1/01.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-1/02.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-1/03.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-1/04.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/madoka-magica/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/madoka-magica/01.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/02.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/03.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/04.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/majou-shoujo/madoka-magica/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/madoka-magica/tomo-3/01.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-3/02.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-3/03.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-3/04.jpeg",
+        "/mangas/majou-shoujo/madoka-magica/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 21,
+  titulo: "Saber Marionette J",
+  kanji: "魔法少女プリティサミー外伝 マリオネットJ)",
+  categoria: "🤖 Mecha 🤖",
+  descripcion:
+    "Sigue a J, una joven marioneta con habilidades especiales que despierta en el mundo humano y se enfrenta a peligros mientras descubre su propósito y origen.",
+  imagen: "/mangas/mecha/saber-marionette-j/saber-marionette-j-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/mecha/saber-marionette-j/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/mecha/saber-marionette-j/tomo-1/01.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-1/02.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-1/03.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-1/04.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/mecha/saber-marionette-j/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/mecha/saber-marionette-j/01.jpeg",
+        "/mangas/mecha/saber-marionette-j/02.jpeg",
+        "/mangas/mecha/saber-marionette-j/03.jpeg",
+        "/mangas/mecha/saber-marionette-j/04.jpeg",
+        "/mangas/mecha/saber-marionette-j/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/mecha/saber-marionette-j/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/mecha/saber-marionette-j/tomo-3/01.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-3/02.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-3/03.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-3/04.jpeg",
+        "/mangas/mecha/saber-marionette-j/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 44,
+  titulo: "Tokyo Mew Mew",
+  kanji: "東京ミュウミュウ",
+  categoria: "✨ Majou-shoujo ✨",
+  descripcion:
+    "Ichigo obtiene poderes de animales en peligro de extinción y, junto con otras chicas, forma un equipo para proteger la Tierra de alienígenas.",
+  imagen: "/mangas/majou-shoujo/tokyo-mew-mew/tokyo-mew-mew-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/tokyo-mew-mew/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-1/01.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-1/02.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-1/03.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-1/04.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/tokyo-mew-mew/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/tokyo-mew-mew/01.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/02.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/03.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/04.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/majou-shoujo/tokyo-mew-mew/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-3/01.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-3/02.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-3/03.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-3/04.jpeg",
+        "/mangas/majou-shoujo/tokyo-mew-mew/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 45,
+  titulo: "Magical Girl Site",
+  kanji: "魔法少女サイト",
+  categoria: "✨ Majou-shoujo ✨",
+  descripcion:
+    "Aya recibe un artefacto mágico que la mete en un juego mortal. Es una versión oscura y violenta del género, con crítica social.",
+  imagen: "/mangas/majou-shoujo/magical-girl-site/magical-girl-site-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/magical-girl-site/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/magical-girl-site/tomo-1/01.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-1/02.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-1/03.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-1/04.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/magical-girl-site/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/magical-girl-site/01.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/02.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/03.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/04.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/majou-shoujo/magical-girl-site/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/magical-girl-site/tomo-3/01.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-3/02.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-3/03.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-3/04.jpeg",
+        "/mangas/majou-shoujo/magical-girl-site/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 46,
+  titulo: "Shugo Chara!",
+  kanji: "しゅごキャラ!",
+  categoria: "✨ Majou-shoujo ✨",
+  descripcion:
+    "Amu obtiene guardiancitos mágicos que representan lo que quiere ser, ayudándola a descubrir su identidad mientras combate criaturas corruptas.",
+  imagen: "/mangas/majou-shoujo/shugo-chara/shugo-chara-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujo/shugo-chara/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/shugo-chara/tomo-1/01.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-1/02.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-1/03.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-1/04.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/majou-shoujoshugo-chara/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/shugo-chara/01.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/02.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/03.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/04.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/majou-shoujo/shugo-chara/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/majou-shoujo/shugo-chara/tomo-3/01.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-3/02.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-3/03.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-3/04.jpeg",
+        "/mangas/majou-shoujo/shugo-chara/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 47,
+  titulo: "Fruits Basket",
+  kanji: "フルーツバスケット",
+  categoria: "💖 Shojo 💖",
+  descripcion:
+    "Tohru Honda convive con la familia Sōma, cuyos miembros están afectados por una maldición que los transforma en animales del zodíaco. Historia de sanación emocional, amor y aceptación.",
+  imagen: "/mangas/shojo/fruits-basket/fruits-basket-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/fruits-basket/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/fruits-basket/tomo-1/01.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-1/02.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-1/03.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-1/04.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/fruits-basket/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shojo/fruits-basket/01.jpeg",
+        "/mangas/shojo/fruits-basket/02.jpeg",
+        "/mangas/shojo/fruits-basket/03.jpeg",
+        "/mangas/shojo/fruits-basket/04.jpeg",
+        "/mangas/shojo/fruits-basket/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shojo/fruits-basket/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shojo/fruits-basket/tomo-3/01.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-3/02.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-3/03.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-3/04.jpeg",
+        "/mangas/shojo/fruits-basket/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 48,
+  titulo: "Clover",
+  kanji: "クローバー",
+  categoria: "💖 Shojo 💖",
+  descripcion:
+    "Un manga futurista y poético donde Sue, una joven con poderes especiales, es escoltada por un soldado llamado Kazuhiko mientras el gobierno la mantiene aislada. Explora soledad, destino y libertad con un estilo minimalista y visualmente único.",
+  imagen: "/mangas/shojo/clover/clover-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/clover/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/clover/tomo-1/01.jpeg",
+        "/mangas/shojo/clover/tomo-1/02.jpeg",
+        "/mangas/shojo/clover/tomo-1/03.jpeg",
+        "/mangas/shojo/clover/tomo-1/04.jpeg",
+        "/mangas/shojo/clover/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/clover/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shojo/clover/01.jpeg",
+        "/mangas/shojo/clover/02.jpeg",
+        "/mangas/shojo/clover/03.jpeg",
+        "/mangas/shojo/clover/04.jpeg",
+        "/mangas/shojo/clover/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shojo/clover/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shojo/clover/tomo-3/01.jpeg",
+        "/mangas/shojo/clover/tomo-3/02.jpeg",
+        "/mangas/shojo/clover/tomo-3/03.jpeg",
+        "/mangas/shojo/clover/tomo-3/04.jpeg",
+        "/mangas/shojo/clover/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 49,
+  titulo: "My Dress-Up Darling",
+  kanji: "その着せ替え人形は恋をする",
+  categoria: "💖 Shojo 💖",
+  descripcion:
+    "Wakana, un chico tímido que hace muñecas hina, conoce a Marin, una chica vibrante que ama el cosplay. Juntos empiezan a crear trajes y a compartir su mundo, mientras su relación crece de forma dulce y divertida.",
+  imagen: "/mangas/shojo/my-dress-up-darling/my-dress-up-darling-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/my-dress-up-darling/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/my-dress-up-darling/tomo-1/01.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-1/02.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-1/03.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-1/04.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/my-dress-up-darling/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shojo/my-dress-up-darling/01.jpeg",
+        "/mangas/shojo/my-dress-up-darling/02.jpeg",
+        "/mangas/shojo/my-dress-up-darling/03.jpeg",
+        "/mangas/shojo/my-dress-up-darling/04.jpeg",
+        "/mangas/shojo/my-dress-up-darling/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shojo/my-dress-up-darling/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shojo/my-dress-up-darling/tomo-3/01.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-3/02.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-3/03.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-3/04.jpeg",
+        "/mangas/shojo/my-dress-up-darling/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 50,
+  titulo: "Kimi Ni Todoke",
+  kanji: "君に届け",
+  categoria: "💖 Shojo 💖",
+  descripcion:
+    "Sawako, tímida y malinterpretada, comienza a abrirse al mundo gracias a su compañero Kazehaya. Un shōjo sobre bondad, autoaceptación y amor dulce.",
+  imagen: "/mangas/shojo/kimi-ni-todoke/kimi-ni-todoke-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/kimi-ni-todoke/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/kimi-ni-todoke/tomo-1/01.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-1/02.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-1/03.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-1/04.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/kimi-ni-todoke/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shojo/kimi-ni-todoke/01.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/02.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/03.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/04.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shojo/kimi-ni-todoke/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shojo/kimi-ni-todoke/tomo-3/01.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-3/02.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-3/03.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-3/04.jpeg",
+        "/mangas/shojo/kimi-ni-todoke/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 51,
+  titulo: "Kamisama Hajimemashita",
+  kanji: "神様はじめました",
+  categoria: "💖 Shojo 💖",
+  descripcion:
+    "Nanami se convierte accidentalmente en la deidad de un santuario y conoce al espíritu zorro Tomoe. Combina romance fantástico y crecimiento personal.",
+  imagen: "/mangas/shojo/kamisama-hajimemashita/kamisama-hajimemashita-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/kamisama-hajimemashita/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/kamisama-hajimemashita/tomo-1/01.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-1/02.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-1/03.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-1/04.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/shojo/kamisama-hajimemashita/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/shojo/kamisama-hajimemashita/01.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/02.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/03.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/04.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/shojo/kamisama-hajimemashita/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/shojo/kamisama-hajimemashita/tomo-3/01.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-3/02.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-3/03.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-3/04.jpeg",
+        "/mangas/shojo/kamisama-hajimemashita/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 52,
+  titulo: "Aoi Hana",
+  kanji: "青い花",
+  categoria: "🌈 Yuri 🌸",
+  descripcion:
+    "Fumi y Akira, amigas de la infancia, se reencuentran y navegan emociones, dudas y primeros amores en un ambiente delicado y realista.",
+  imagen: "/mangas/yuri/aoi-hana/aoi-hana-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/aoi-hana/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/yuri/aoi-hana/tomo-1/01.jpeg",
+        "/mangas/shojo/yuri/aoi-hana/tomo-1/02.jpeg",
+        "/mangas/shojo/yuri/aoi-hana/tomo-1/03.jpeg",
+        "/mangas/shojo/yuri/aoi-hana/tomo-1/04.jpeg",
+        "/mangas/shojo/yuri/aoi-hana/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/aoi-hana/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/yuri/aoi-hana/01.jpeg",
+        "/mangas/yuri/aoi-hana/02.jpeg",
+        "/mangas/yuri/aoi-hana/03.jpeg",
+        "/mangas/yuri/aoi-hana/04.jpeg",
+        "/mangas/yuri/aoi-hana/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/yuri/aoi-hana/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/yuri/aoi-hana/tomo-3/01.jpeg",
+        "/mangas/yuri/aoi-hana/tomo-3/02.jpeg",
+        "/mangas/yuri/aoi-hana/tomo-3/03.jpeg",
+        "/mangas/yuri/aoi-hana/tomo-3/04.jpeg",
+        "/mangas/yuri/aoi-hana/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 53,
+  titulo: "Sasameki Koto",
+  kanji: "ささめきこと",
+  categoria: "🌈 Yuri 🌸",
+  descripcion:
+    "Sumika está enamorada de su mejor amiga Ushio, quien solo se fija en chicas “tiernas”. Una historia de sentimientos silenciosos, humor y crecimiento personal.",
+  imagen: "/mangas/yuri/sasameki-koto/sasameki-koto-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/sasameki-koto/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/yuri/sasameki-koto/tomo-1/01.jpeg",
+        "/mangas/shojo/yuri/sasameki-koto/tomo-1/02.jpeg",
+        "/mangas/shojo/yuri/sasameki-koto/tomo-1/03.jpeg",
+        "/mangas/shojo/yuri/sasameki-koto/tomo-1/04.jpeg",
+        "/mangas/shojo/yuri/sasameki-koto/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/sasameki-koto/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/yuri/sasameki-koto/01.jpeg",
+        "/mangas/yuri/sasameki-koto/02.jpeg",
+        "/mangas/yuri/sasameki-koto/03.jpeg",
+        "/mangas/yuri/sasameki-koto/04.jpeg",
+        "/mangas/yuri/sasameki-koto/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/yuri/sasameki-koto/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/yuri/sasameki-koto/tomo-3/01.jpeg",
+        "/mangas/yuri/sasameki-koto/tomo-3/02.jpeg",
+        "/mangas/yuri/sasameki-koto/tomo-3/03.jpeg",
+        "/mangas/yuri/sasameki-koto/tomo-3/04.jpeg",
+        "/mangas/yuri/sasameki-koto/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 54,
+  titulo: "Adachi to Shimamura",
+  kanji: "安達としまむら",
+  categoria: "🌈 Yuri 🌸",
+  descripcion:
+    "Dos chicas que suelen saltarse clases se conocen mejor en sus ratos juntas. Entre silencio, ternura y duda, su amistad se transforma lentamente en amor.",
+  imagen: "/mangas/yuri/adachi-to-shimamura/adachi-to-shimamura-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/adachi-to-shimamura/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/yuri/adachi-to-shimamura/tomo-1/01.jpeg",
+        "/mangas/shojo/yuri/adachi-to-shimamura/tomo-1/02.jpeg",
+        "/mangas/shojo/yuri/adachi-to-shimamura/tomo-1/03.jpeg",
+        "/mangas/shojo/yuri/adachi-to-shimamura/tomo-1/04.jpeg",
+        "/mangas/shojo/yuri/adachi-to-shimamura/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/adachi-to-shimamura/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/yuri/adachi-to-shimamura/01.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/02.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/03.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/04.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/yuri/adachi-to-shimamura/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/yuri/adachi-to-shimamura/tomo-3/01.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/tomo-3/02.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/tomo-3/03.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/tomo-3/04.jpeg",
+        "/mangas/yuri/adachi-to-shimamura/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 55,
+  titulo: "Whisper Me a Love Song",
+  kanji: "ささやくように恋を唄う",
+  categoria: "🌈 Yuri 🌸",
+  descripcion:
+    "Sigue a Himari, una estudiante alegre que se enamora a primera vista de Yori, una chica mayor que canta en una banda. Mientras ambas intentan comprender sus sentimientos, la historia mezcla música, romance y descubrimiento emocional con un tono fresco y actual.",
+  imagen: "/mangas/yuri/whisper-me-a-love-song/whisper-me-a-love-song-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/whisper-me-a-love-song/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/yuri/whisper-me-a-love-song/tomo-1/01.jpeg",
+        "/mangas/shojo/yuri/whisper-me-a-love-song/tomo-1/02.jpeg",
+        "/mangas/shojo/yuri/whisper-me-a-love-song/tomo-1/03.jpeg",
+        "/mangas/shojo/yuri/whisper-me-a-love-song/tomo-1/04.jpeg",
+        "/mangas/shojo/yuri/whisper-me-a-love-song/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/yuri/whisper-me-a-love-song/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/yuri/whisper-me-a-love-song/01.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/02.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/03.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/04.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/yuri/whisper-me-a-love-song/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/yuri/whisper-me-a-love-song/tomo-3/01.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/tomo-3/02.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/tomo-3/03.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/tomo-3/04.jpeg",
+        "/mangas/yuri/whisper-me-a-love-song/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 56,
+  titulo: "Nana",
+  kanji: "ナナ",
+  categoria: "💄 Josei 💄",
+  descripcion:
+    "Dos chicas llamadas Nana comparten piso en Tokio mientras exploran el amor, la música, la madurez y los vínculos que cambian sus vidas para siempre.",
+  imagen: "/mangas/josei/nana/nana-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/nana/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/josei/nana/tomo-1/01.jpeg",
+        "/mangas/shojo/josei/nana/tomo-1/02.jpeg",
+        "/mangas/shojo/josei/nana/tomo-1/03.jpeg",
+        "/mangas/shojo/josei/nana/tomo-1/04.jpeg",
+        "/mangas/shojo/josei/nana/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/nana/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/josei/nana/01.jpeg",
+        "/mangas/josei/nana/02.jpeg",
+        "/mangas/josei/nana/03.jpeg",
+        "/mangas/josei/nana/04.jpeg",
+        "/mangas/josei/nana/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/josei/nana/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/josei/nana/tomo-3/01.jpeg",
+        "/mangas/josei/nana/tomo-3/02.jpeg",
+        "/mangas/josei/nana/tomo-3/03.jpeg",
+        "/mangas/josei/nana/tomo-3/04.jpeg",
+        "/mangas/josei/nana/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 58,
+  titulo: "Hotaru no Yomeiri",
+  kanji: "ホタルの嫁入り",
+  categoria: "💄 Josei 💄",
+  descripcion:
+    "En la era Meiji, una joven noble enferma propone matrimonio a un peligroso asesino para salvar su vida, dando inicio a una relación tan oscura como inesperada.",
+  imagen: "/mangas/josei/hotaru-no-yomeiri/hotaru-no-yomeiri-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/hotaru-no-yomeiri/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/josei/hotaru-no-yomeiri/tomo-1/01.jpeg",
+        "/mangas/shojo/josei/hotaru-no-yomeiri/tomo-1/02.jpeg",
+        "/mangas/shojo/josei/hotaru-no-yomeiri/tomo-1/03.jpeg",
+        "/mangas/shojo/josei/hotaru-no-yomeiri/tomo-1/04.jpeg",
+        "/mangas/shojo/josei/hotaru-no-yomeiri/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/hotaru-no-yomeiri/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/josei/hotaru-no-yomeiri/01.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/02.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/03.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/04.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/josei/hotaru-no-yomeiri/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/josei/hotaru-no-yomeiri/tomo-3/01.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/tomo-3/02.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/tomo-3/03.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/tomo-3/04.jpeg",
+        "/mangas/josei/hotaru-no-yomeiri/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 59,
+  titulo: "Hoshifuru Ōkoku no Nina",
+  kanji: "星降る王国のニナ",
+  categoria: "💄 Josei 💄",
+  descripcion:
+    "Una historia de fantasía y romance con una protagonista fuerte en un reino estelar moderno.",
+  imagen: "/mangas/josei/hoshifuru-okoku-no-nina/hoshifuru-okoku-no-nina-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/hoshifuru-okoku-no-nina/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/josei/hoshifuru-okoku-no-nina/tomo-1/01.jpeg",
+        "/mangas/shojo/josei/hoshifuru-okoku-no-nina/tomo-1/02.jpeg",
+        "/mangas/shojo/josei/hoshifuru-okoku-no-nina/tomo-1/03.jpeg",
+        "/mangas/shojo/josei/hoshifuru-okoku-no-nina/tomo-1/04.jpeg",
+        "/mangas/shojo/josei/hoshifuru-okoku-no-nina/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/hoshifuru-okoku-no-nina/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/josei/hoshifuru-okoku-no-nina/01.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/02.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/03.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/04.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/josei/hoshifuru-okoku-no-nina/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/josei/hoshifuru-okoku-no-nina/tomo-3/01.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/tomo-3/02.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/tomo-3/03.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/tomo-3/04.jpeg",
+        "/mangas/josei/hoshifuru-okoku-no-nina/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 60,
+  titulo: "Ikoku Nikki",
+  kanji: "違国日記",
+  categoria: "💄 Josei 💄",
+  descripcion:
+    "Una escritora solitaria acoge a su sobrina adolescente tras una tragedia, y juntas aprenden a convivir mientras sanan heridas emocionales y descubren nuevas formas de entender la vida.",
+  imagen: "/mangas/josei/ikoku-nikki/ikoku-nikki-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/ikoku-nikki/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/josei/ikoku-nikki/tomo-1/01.jpeg",
+        "/mangas/shojo/josei/ikoku-nikki/tomo-1/02.jpeg",
+        "/mangas/shojo/josei/ikoku-nikki/tomo-1/03.jpeg",
+        "/mangas/shojo/josei/ikoku-nikki/tomo-1/04.jpeg",
+        "/mangas/shojo/josei/ikoku-nikki/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/ikoku-nikki/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/josei/ikoku-nikki/01.jpeg",
+        "/mangas/josei/ikoku-nikki/02.jpeg",
+        "/mangas/josei/ikoku-nikki/03.jpeg",
+        "/mangas/josei/ikoku-nikki/04.jpeg",
+        "/mangas/josei/ikoku-nikki/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/josei/ikoku-nikki/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/josei/ikoku-nikki/tomo-3/01.jpeg",
+        "/mangas/josei/ikoku-nikki/tomo-3/02.jpeg",
+        "/mangas/josei/ikoku-nikki/tomo-3/03.jpeg",
+        "/mangas/josei/ikoku-nikki/tomo-3/04.jpeg",
+        "/mangas/josei/ikoku-nikki/tomo-3/05.jpeg"
+      ]
+    }
+  ]
+},
+
+{
+  id: 61,
+  titulo: "Tokyo Tarareba Girls",
+  kanji: "東京タラレバ娘",
+  categoria: "💄 Josei 💄",
+  descripcion:
+    "Retrata la vida romántica y laboral de mujeres treintañeras; humor, reflexión y mucha realidad.",
+  imagen: "/mangas/josei/tokyo-tarareba-girls/tokyo-tarareba-girls-portada.jpeg",
+  tomos: [
+    {
+      id: 1,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/tokyo-tarareba-girls/tomo-1/01.jpeg",
+      paginas: [
+        "/mangas/shojo/josei/tokyo-tarareba-girls/tomo-1/01.jpeg",
+        "/mangas/shojo/josei/tokyo-tarareba-girls/tomo-1/02.jpeg",
+        "/mangas/shojo/josei/tokyo-tarareba-girls/tomo-1/03.jpeg",
+        "/mangas/shojo/josei/tokyo-tarareba-girls/tomo-1/04.jpeg",
+        "/mangas/shojo/josei/tokyo-tarareba-girls/tomo-1/05.jpeg"
+      ]
+    },
+    {
+      id: 2,
+      nombre: "Tomo 1",
+      imagen: "/mangas/josei/tokyo-tarareba-girls/tomo-2/01.jpeg",
+      paginas: [
+        "/mangas/josei/tokyo-tarareba-girls/01.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/02.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/03.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/04.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/05.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      nombre: "Tomo 2",
+      imagen: "/mangas/josei/tokyo-tarareba-girls/tomo-3/01.jpeg",
+      paginas: [
+        "/mangas/josei/tokyo-tarareba-girls/tomo-3/01.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/tomo-3/02.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/tomo-3/03.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/tomo-3/04.jpeg",
+        "/mangas/josei/tokyo-tarareba-girls/tomo-3/05.jpeg"
       ]
     }
   ]

@@ -1,8 +1,8 @@
-// src/pages/MangaCategory.jsx
 import "./MangaCategory.css";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { mangaService } from "../data/mangaservice";
+import { getCurrentUser, calculateAge } from "../data/authService";
 
 // misma función de otros archivos (sin emojis, etc.)
 function slugCategoria(nombre = "") {
@@ -25,19 +25,82 @@ function formatearNombreCategoria(slug) {
   return slug.charAt(0).toUpperCase() + slug.slice(1);
 }
 
+// --- Restricciones ---
+const RESTRICTED_CATEGORIES = new Set([
+  "shonen-ai",
+  "seinen",
+  "mecha",
+  "yuri",
+  "josei",
+]);
+const MIN_RESTRICTED_AGE = 16;
+
+function canAccessRestricted(user) {
+  if (!user) return false;
+  if (user.role === "admin" || user.role === "colab") return true;
+
+  const age = user.birthDate ? calculateAge(user.birthDate) : null;
+  if (age === null) return false;
+
+  return age >= MIN_RESTRICTED_AGE;
+}
+
 function MangaCategory() {
   const { categoria } = useParams();
+  const navigate = useNavigate();
+
+  const user = getCurrentUser();
+  const allowedRestricted = canAccessRestricted(user);
+
+  const categoriaSlug = slugCategoria(categoria || "");
+  const isRestrictedCategory = RESTRICTED_CATEGORIES.has(categoriaSlug);
 
   const {
     data: mangas,
     isLoading,
     isError,
   } = useQuery({
-    queryKey: ["mangasCategoria", categoria],
-    queryFn: () =>
-      mangaService.getByCategoria(slugCategoria(categoria || "")),
-    enabled: !!categoria,
+    queryKey: ["mangasCategoria", categoriaSlug],
+    queryFn: () => mangaService.getByCategoria(categoriaSlug),
+    enabled: !!categoriaSlug,
   });
+
+  // Si la categoría es restringida y no tiene acceso, se bloquea la vista
+  if (isRestrictedCategory && !allowedRestricted) {
+    return (
+      <div className="categoria-page">
+        <h1 className="categoria-title">Contenido restringido 🔒</h1>
+
+        {!user ? (
+          <>
+            <p className="categoria-subtitle">
+              Esta categoría es solo para usuarios registrados y mayores de{" "}
+              {MIN_RESTRICTED_AGE}.
+            </p>
+            <Link to="/login" className="categoria-back-link">
+              Iniciar sesión
+            </Link>
+            <Link to="/" className="categoria-back-link bottom">
+              ← Volver al Home 🏠
+            </Link>
+          </>
+        ) : (
+          <>
+            <p className="categoria-subtitle">
+              Necesitás ser mayor de {MIN_RESTRICTED_AGE} para ver esta
+              categoría.
+            </p>
+            <button className="categoria-back-link" onClick={() => navigate(-1)}>
+              ← Volver
+            </button>
+            <Link to="/" className="categoria-back-link bottom">
+              ← Volver al Home 🏠
+            </Link>
+          </>
+        )}
+      </div>
+    );
+  }
 
   if (isLoading) {
     return (
@@ -101,9 +164,7 @@ function MangaCategory() {
 
                 <div className="categoria-card-body">
                   <h3 className="categoria-card-title">{manga.titulo}</h3>
-                  <p className="categoria-card-category">
-                    {manga.categoria}
-                  </p>
+                  <p className="categoria-card-category">{manga.categoria}</p>
                 </div>
               </Link>
             ))}

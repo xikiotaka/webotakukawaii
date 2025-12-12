@@ -1,16 +1,21 @@
+// src/data/mangaservice.js
 import { mangasDB, getNextMangaId } from "./mangaDB";
 
-// Simulate API delay
+// Simula delay de API
 const delay = (ms = 400) => new Promise((res) => setTimeout(res, ms));
 
-// Mock API service with CRUD operations
+// Clave única para localStorage
+const STORAGE_KEY = "mangasDB";
+
+// Leer mangas desde localStorage o desde la DB base
 const getStoredMangas = () => {
-  const stored = localStorage.getItem("mangasDB");
+  const stored = localStorage.getItem(STORAGE_KEY);
   return stored ? JSON.parse(stored) : [...mangasDB];
 };
 
+// Guardar mangas en localStorage
 const saveMangas = (list) => {
-  localStorage.setItem("mangasDB", JSON.stringify(list));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
 };
 
 // Helper para normalizar categorías (quita emojis, tildes, etc.)
@@ -43,13 +48,13 @@ const CATEGORIA_ORDER = [
 ];
 
 export const mangaService = {
-  // GET: all
+  // GET: todos los mangas
   async getAll() {
     await delay();
     return getStoredMangas();
   },
 
-  // GET: for id
+  // GET: por id
   async getById(id) {
     await delay(200);
     const mangas = getStoredMangas();
@@ -58,8 +63,7 @@ export const mangaService = {
     return manga;
   },
 
-  // GET: por categoría
-  // Este método espera un *slug* (kodomo, shonen, etc.)
+  // GET: por categoría (recibe slug: "shonen", "isekai", etc.)
   async getByCategoria(categoriaSlug) {
     await delay(200);
     const mangas = getStoredMangas();
@@ -68,12 +72,11 @@ export const mangaService = {
     const criterio = categoriaSlug.toLowerCase();
 
     return mangas.filter(
-      (m) =>
-        m.categoria && slugCategoria(m.categoria) === criterio
+      (m) => m.categoria && slugCategoria(m.categoria) === criterio
     );
   },
 
-  // GET movies by title or category (búsqueda libre)
+  // Búsqueda libre por título o categoría
   async search(query) {
     await delay(200);
     const mangas = getStoredMangas();
@@ -118,7 +121,7 @@ export const mangaService = {
     return slugsOrdenados.map((slug) => mapaCategorias.get(slug));
   },
 
-  // POST: create manga (mock)
+  // POST: crear manga
   async create(mangaData) {
     await delay(300);
     const mangas = getStoredMangas();
@@ -134,7 +137,7 @@ export const mangaService = {
     return nuevo;
   },
 
-  // PUT: update
+  // PUT: actualizar manga
   async update(id, mangaData) {
     await delay(300);
     const mangas = getStoredMangas();
@@ -146,7 +149,7 @@ export const mangaService = {
     return mangas[index];
   },
 
-  // DELETE
+  // DELETE: eliminar manga
   async remove(id) {
     await delay(250);
     const mangas = getStoredMangas();
@@ -157,3 +160,5 @@ export const mangaService = {
     return { success: true };
   },
 };
+
+export { slugCategoria };

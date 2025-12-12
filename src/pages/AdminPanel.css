@@ -1,0 +1,333 @@
+/* ---------- CONTENEDOR GENERAL DEL PANEL ---------- */
+.admin-panel {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.admin-panel h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #ff5fa2;
+  font-weight: 800;
+}
+
+/* ---------- LAYOUT 2 COLUMNAS ---------- */
+.admin-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.admin-section--form {
+  position: sticky;
+  top: 1rem;
+}
+
+/* Header del listado */
+.admin-section--list .admin-list-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.admin-filter label {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.admin-filter select {
+  margin-left: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ffc4da;
+  background: #fff4fa;
+}
+
+/* ---------- SECCIONES ---------- */
+.admin-section {
+  background: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(255, 95, 162, 0.15);
+  border: 1px solid rgba(255, 95, 162, 0.25);
+}
+
+.admin-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #ff2e83;
+  font-weight: 700;
+}
+
+/* ---------- FORMULARIO ---------- */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #444;
+}
+
+.admin-form input,
+.admin-form textarea {
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ffc4da;
+  border-radius: 8px;
+  outline: none;
+  background: #fff4fa;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.admin-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border-color: #ff77b6;
+  box-shadow: 0 0 0 3px rgba(255, 119, 182, 0.25);
+}
+
+.admin-form-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.admin-form button,
+.admin-form-actions button {
+  align-self: flex-start;
+  padding: 0.7rem 1.2rem;
+  background: #ff4d9c;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.admin-form button:hover,
+.admin-form-actions button:hover {
+  background: #ff277e;
+}
+
+.secondary-btn {
+  background: #f1f1f1;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.secondary-btn:hover {
+  background: #e5e5e5;
+}
+
+/* ---------- TABLA LISTADO ---------- */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.admin-table thead {
+  position: sticky;
+  top: 0;
+  background: #ffe6f3;
+  z-index: 1;
+}
+
+.admin-table th {
+  background: #ffe6f3;
+  text-align: left;
+  padding: 0.7rem;
+  border-bottom: 2px solid #ffc0d9;
+  color: #ff2e83;
+  font-weight: 700;
+}
+
+.admin-table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #ffd4e6;
+  color: #333;
+}
+
+.admin-table tbody tr:nth-child(odd) {
+  background: #fffafc;
+}
+
+.admin-table tbody tr:nth-child(even) {
+  background: #ffffff;
+}
+
+.admin-table tbody tr:hover {
+  background: #ffeef8;
+}
+
+/* Acciones tabla */
+.admin-actions-cell {
+  display: flex;
+  gap: 0.4rem;
+}
+
+/* Estilo base botones */
+.admin-table button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s, transform 0.15s;
+}
+
+/* Botón EDITAR */
+.admin-table .edit-btn {
+  background: #4c7dff;
+  color: #fff;
+}
+
+.admin-table .edit-btn:hover {
+  background: #325ee0;
+}
+
+/* Botón ELIMINAR (genérico) */
+.admin-table button:not(.edit-btn) {
+  background: #e63950;
+  color: white;
+}
+
+.admin-table button:not(.edit-btn):hover {
+  background: #c7263d;
+}
+
+/* ---------- PORTADAS ---------- */
+.admin-cover-thumb {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ffcce1;
+}
+
+/* ---------- TOMOS ---------- */
+.tomos-block {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #ffc4da;
+}
+
+.tomo-card {
+  border: 1px solid #ffd1e6;
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  background: #fff8fc;
+}
+
+.tomo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.tomo-header h4 {
+  margin: 0;
+  color: #ff4d9c;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tomo-remove-btn {
+  background: #ff7b92;
+  color: #fff;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  border: none;
+}
+
+/* ---------- COLABORADORES ---------- */
+
+.admin-section--collabs {
+  margin-top: 2rem;
+}
+
+.admin-table--collabs .collab-message-box {
+  max-height: 160px;
+  overflow-y: auto;
+  padding: 0.8rem;
+  background: #fef3fa;
+  border-radius: 10px;
+  border: 1px solid #ffb4dd;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Badges de estado */
+.collab-status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.collab-status-badge--pending {
+  background: #ffe066;
+  color: #7a5e00;
+}
+
+.collab-status-badge--approved {
+  background: rgba(46, 204, 113, 0.25);
+  color: #2ecc71;
+}
+
+.collab-status-badge--rejected {
+  background: rgba(255, 77, 79, 0.25);
+  color: #ff4d4f;
+}
+
+/* Acciones */
+.collab-actions-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* BOTONES CORREGIDOS */
+.admin-table--collabs .collab-actions-cell .collab-approve-btn {
+  background: #ff4d9c !important;     
+  border: none;
+  padding: 0.45rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 8px rgba(255, 77, 156, 0.6);
+}
+
+.admin-table--collabs .collab-actions-cell .collab-reject-btn {
+  background: #3f7cff !important;   
+  border: none;
+  padding: 0.45rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 8px rgba(63, 124, 255, 0.6);
+}

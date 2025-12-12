@@ -1,23 +1,46 @@
-// src/pages/Home.jsx
 import "./Home.css";
 import { useQuery } from "@tanstack/react-query";
 import { mangaService } from "../data/mangaservice";
 import { useNavigate } from "react-router-dom";
+import { getCurrentUser, calculateAge } from "../data/authService";
 
-// 👉 misma función que en MangaDetail: limpia emojis, símbolos y espacios raros
+// 👉 limpia emojis, símbolos y espacios raros
 function slugCategoria(nombre = "") {
   return nombre
-    .replace(/[\p{Emoji_Presentation}\p{Emoji}\p{Extended_Pictographic}]/gu, "") // quitar emojis
+    .replace(/[\p{Emoji_Presentation}\p{Emoji}\p{Extended_Pictographic}]/gu, "")
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "") // quitar tildes
-    .replace(/[^a-zA-Z0-9\s-]/g, "") // quitar símbolos
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9\s-]/g, "")
     .trim()
     .toLowerCase()
-    .replace(/\s+/g, "-"); // espacios → guiones
+    .replace(/\s+/g, "-");
+}
+
+// --- Restricciones ---
+const RESTRICTED_CATEGORIES = new Set([
+  "shonen-ai",
+  "seinen",
+  "mecha",
+  "yuri",
+  "josei",
+]);
+const MIN_RESTRICTED_AGE = 16;
+
+function canAccessRestricted(user) {
+  if (!user) return false;
+  if (user.role === "admin" || user.role === "colab") return true;
+
+  const age = user.birthDate ? calculateAge(user.birthDate) : null;
+  if (age === null) return false;
+
+  return age >= MIN_RESTRICTED_AGE;
 }
 
 function Home() {
   const navigate = useNavigate();
+
+  const user = getCurrentUser();
+  const allowedRestricted = canAccessRestricted(user);
 
   const {
     data: mangas = [],
@@ -28,27 +51,30 @@ function Home() {
     queryFn: () => mangaService.getAll(),
   });
 
-  if (isLoading)
-    return <p className="home-loading">Cargando mangas... ✨</p>;
+  if (isLoading) return <p className="home-loading">Cargando mangas... ✨</p>;
   if (isError)
-    return (
-      <p className="home-error">
-        Hubo un problema al cargar los mangas 😿
-      </p>
-    );
+    return <p className="home-error">Hubo un problema al cargar los mangas 😿</p>;
+
+  // Filtrar mangas restringidos si no cumple
+  const mangasVisibles = mangas.filter((m) => {
+    const catSlug = m.categoria ? slugCategoria(m.categoria) : "";
+    const isRestricted = RESTRICTED_CATEGORIES.has(catSlug);
+    if (!isRestricted) return true;
+    return allowedRestricted;
+  });
 
   // Agrupar mangas por categoría
-  const categoriasMap = mangas.reduce((acc, manga) => {
+  const categoriasMap = mangasVisibles.reduce((acc, manga) => {
     const cat = manga.categoria || "Otros";
-    const key = cat.toLowerCase();
-    if (!acc[key]) {
-      acc[key] = {
+    const slug = slugCategoria(cat);
+    if (!acc[slug]) {
+      acc[slug] = {
         nombre: cat,
-        slug: slugCategoria(cat),
+        slug,
         mangas: [],
       };
     }
-    acc[key].mangas.push(manga);
+    acc[slug].mangas.push(manga);
     return acc;
   }, {});
 

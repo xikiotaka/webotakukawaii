@@ -1,24 +1,45 @@
 // src/hooks/useFavorites.js
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { getCurrentUser } from "../data/authService";
+
+function getStorageKey() {
+  const user = getCurrentUser();
+  return user ? `favoritos_${user.id}` : "favoritos_guest";
+}
 
 export function useFavorites() {
   const queryClient = useQueryClient();
+  const storageKey = getStorageKey();
 
-  // Traer favoritos desde localStorage
   const favQuery = useQuery({
-    queryKey: ["favoritos"],
+    queryKey: ["favoritos", storageKey],
     queryFn: () => {
-      const stored = localStorage.getItem("favoritos");
-      return stored ? JSON.parse(stored) : [];
+      try {
+        const legacy = localStorage.getItem("favoritos");
+        if (legacy && storageKey !== "favoritos_guest") {
+          const legacyList = JSON.parse(legacy);
+          const currentRaw = localStorage.getItem(storageKey);
+          const currentList = currentRaw ? JSON.parse(currentRaw) : [];
+          const merged = Array.from(new Set([...currentList, ...legacyList]));
+          localStorage.setItem(storageKey, JSON.stringify(merged));
+          localStorage.removeItem("favoritos");
+          return merged;
+        }
+
+        const raw = localStorage.getItem(storageKey);
+        return raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        console.error("Error leyendo favoritos", e);
+        return [];
+      }
     },
   });
 
   const setStorage = (list) => {
-    localStorage.setItem("favoritos", JSON.stringify(list));
+    localStorage.setItem(storageKey, JSON.stringify(list));
     return list;
   };
 
-  // Agregar favorito
   const addFavorite = useMutation({
     mutationFn: (mangaId) => {
       const current = favQuery.data || [];
@@ -29,11 +50,10 @@ export function useFavorites() {
       return current;
     },
     onSuccess: (data) => {
-      queryClient.setQueryData(["favoritos"], data);
+      queryClient.setQueryData(["favoritos", storageKey], data);
     },
   });
 
-  // Quitar favorito
   const removeFavorite = useMutation({
     mutationFn: (mangaId) => {
       const current = favQuery.data || [];
@@ -41,11 +61,10 @@ export function useFavorites() {
       return setStorage(updated);
     },
     onSuccess: (data) => {
-      queryClient.setQueryData(["favoritos"], data);
+      queryClient.setQueryData(["favoritos", storageKey], data);
     },
   });
 
-  // Toggle (si está, lo quita; si no, lo agrega)
   const toggleFavorite = (mangaId) => {
     const current = favQuery.data || [];
     const yaEsFavorito = current.includes(mangaId);
