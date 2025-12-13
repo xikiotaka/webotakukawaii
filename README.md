@@ -1,110 +1,120 @@
-# 🌸 Otaku Kawaii — Lector de Mangas
+# 🌸 Otaku Kawaii — Plataforma Web de Lectura de Mangas
 
-¡Bienvenido a **Otaku Kawaii**, una aplicación web súper kawaii para leer tus mangas favoritos en línea!  
-Desarrollada con **React.js**, esta app combina un diseño adorable con una experiencia de lectura fluida y cómoda 💖
+**Otaku Kawaii** es una aplicación web desarrollada en **React** que permite explorar, filtrar y leer mangas en línea, con control de acceso por edad, roles de usuario y una experiencia visual inspirada en la estética *kawaii* japonesa para el Informatorio en su etapa 3 ✨
 
 ---
 
-## ✨ Características principales
+## 🌟 Funcionalidades principales
 
-- 🎨 **Interfaz adorable y moderna** inspirada en la estética *kawaii* japonesa.  
-- 📚 **Catálogo de mangas** con portada, género y descripción.  
-- 📖 **Modo lectura de manga** con navegación entre páginas.  
-- ⬅️➡️ **Botones personalizados** para cambiar de página.  
-- 📱 **Diseño responsive**, adaptable a cualquier dispositivo.  
-- 🌙 **Estilo visual suave y claro**, ideal para leer de noche.
+### 📚 Exploración de mangas
+- Catálogo de mangas con portada, título y categoría.
+- Navegación por distintas categorías (Kodomo, Shonen, Seinen, Josei, Yuri, Mecha, etc.).
+- Vista dedicada por categoría.
+
+---
+
+### 🧭 Navegación por categorías
+- Acceso desde el menú desplegable **“MANGAS”** en el header.
+- Conversión automática de categorías a **slugs seguros** para la URL.
+- Vista `MangaCategory` con:
+  - Título de la categoría
+  - Cantidad de mangas encontrados
+  - Grilla responsive de tarjetas
+
+---
+
+### 🔐 Control de acceso y restricciones
+Algunas categorías están marcadas como **contenido +16**.
+
+#### Reglas de acceso:
+- 👤 Usuarios **no logueados** → acceso restringido
+- 🧒 Usuarios **menores de 16 años** → acceso restringido
+- 🛡️ **Admin y Colab** → acceso completo
+
+Cuando un usuario sin permisos intenta acceder:
+- Se bloquea la navegación
+- Se muestra un **banner de advertencia** en el header
+
+---
+
+### 👤 Sistema de usuarios
+- Registro y login de usuarios.
+- Persistencia de sesión mediante `localStorage`.
+- Cada usuario posee:
+  - Rol (`user`, `admin`, `colab`)
+  - Fecha de nacimiento (para cálculo de edad)
+  - Avatar asignado
+
+---
+
+### 🧑‍🎨 Avatar de usuario
+- Mini avatar visible en el header al iniciar sesión.
+- Avatar clickeable que redirige al **panel de usuario**.
+- Diferenciación visual según rol:
+  - Admin → avatar especial
+  - Usuario común → avatar estándar
+
+---
+
+### 📖 Lector de mangas
+- Vista de detalle por manga.
+- Acceso a tomos individuales.
+- Navegación de páginas mediante botones.
+- Registro de tomos leídos por usuario.
+
+---
+
+### 🧱 Roles del sistema
+- **Admin**: acceso total y panel administrativo.
+- **Colab**: acceso extendido a contenido restringido.
+- **User**: acceso condicionado por edad.
+
+---
+
+### 🎨 Diseño y experiencia visual
+- Estética *kawaii* con colores suaves.
+- Tipografías: Dela Gothic One e Inter.
+- Diseño responsive (desktop, tablet y mobile).
+- Header fijo (`sticky`) para navegación constante.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
-
-- ⚛️ **React.js** – Framework principal para construir la UI.  
-- 🧩 **ReactDOM** – Renderizado eficiente de los componentes en el DOM.  
-- ⚡ **Vite** – Entorno de desarrollo rápido y moderno.  
-- 🎨 **CSS3 / Flexbox** – Estilos personalizados y diseño adaptable.  
-- ✍️ **Google Fonts** – Tipografías *Inter* y *Dela Gothic One*.  
-- 🖼️ **Assets personalizados** – Botones, logos y recursos visuales kawaii.
+- React.js
+- Vite
+- React Router DOM
+- @tanstack/react-query
+- CSS3 (Flexbox + Grid)
+- LocalStorage
 
 ---
 
 ## 📁 Estructura del proyecto
-
 ```
 src/
-│
-├── assets/                 # Imágenes, íconos y botones de navegación
-│   ├── boton-cambio-pagina-der.png
-│   ├── boton-cambio-pagina-izq.png
-│   └── ...
-│
+├── assets/
 ├── components/
-│   ├── MangaCard.jsx       # Tarjeta de presentación de cada manga
-│   ├── MangaDetail.jsx     # Página de detalle y lector del manga
-│   ├── MangaList.jsx       # Listado principal de mangas
-│   ├── Header.jsx          # Encabezado kawaii con logo
-│   ├── Footer.jsx          # Pie de página adorable
-│   └── ...
-│
-├── styles/
-│   ├── MangaDetail.css
-│   ├── MangaCard.css
-│   ├── Header.css
-│   ├── Footer.css
-│   └── ...
-│
+├── pages/
 ├── data/
-│   └── mangas.js           # Datos de prueba (títulos, géneros, descripciones y páginas)
-│
-├── App.jsx                 # Componente principal
-└── main.jsx                # Punto de entrada de la app (render con ReactDOM)
+├── App.jsx
+└── main.jsx
 ```
 
 ---
 
-## 💻 Instalación y ejecución
-
-1. Cloná este repositorio:
-
-   ```bash
-   git clone https://github.com/tuusuario/otaku-kawaii.git
-   ```
-
-2. Accedé al directorio del proyecto:
-
-   ```bash
-   cd otaku-kawaii
-   ```
-
-3. Instalá las dependencias:
-
-   ```bash
-   npm install
-   ```
-
-4. Ejecutá el servidor de desarrollo:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Abrí el proyecto en tu navegador en  
-   👉 [http://localhost:5173](http://localhost:5173)
+## 🚀 Instalación y ejecución
+```bash
+npm install
+npm run dev
+```
 
 ---
 
 ## 🎀 Créditos
+- 💖 Desarrollo y diseño: **Florencia Azcoaga**
+- 🎓 Proyecto educativo – Informatorio (React)
 
-- Diseño y desarrollo por **Florencia Azcoaga** 💫  
-- Inspirado en la cultura otaku y estética *kawaii*.  
-- Ilustraciones y mangas: pertenecen a sus respectivos autores y editoriales.
-- Desarrollado para el Informatorio, en la especialización de React.
 ---
 
 ## 📜 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**, por lo que podés usarlo, modificarlo y compartirlo libremente.  
-(¡Solo no olvides dejar una estrellita ⭐ en GitHub!)
-
----
-
-> 🌸 *“Un lector de mangas feliz es un kokoro kawaii”* 🌸
+MIT
