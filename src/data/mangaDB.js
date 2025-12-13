@@ -2875,14 +2875,14 @@ let mangasDB = [
     },
     {
       id: 2,
-      nombre: "Tomo 1",
+      nombre: "Tomo 2",
       imagen: "/mangas/josei/nana/tomo-2/01.jpeg",
       paginas: [
-        "/mangas/josei/nana/01.jpeg",
-        "/mangas/josei/nana/02.jpeg",
-        "/mangas/josei/nana/03.jpeg",
-        "/mangas/josei/nana/04.jpeg",
-        "/mangas/josei/nana/05.jpeg"
+        "/mangas/josei/nana/tomo-2/01.jpeg",
+        "/mangas/josei/nana/tomo-2/02.jpeg",
+        "/mangas/josei/nana/tomo-2/03.jpeg",
+        "/mangas/josei/nana/tomo-2/04.jpeg",
+        "/mangas/josei/nana/tomo-2/05.jpeg"
       ]
     },
     {
