@@ -15,7 +15,7 @@ function Footer() {
         <img src="/upbuttom.png" alt="Ir arriba" />
       </button>
 
-      <p>© 2025 OtakuKawaii. Todos los derechos reservados.</p>
+      <p>© 2025 OtakuKawaii. </p>
     </footer>
   );
 }
