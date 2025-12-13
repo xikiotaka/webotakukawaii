@@ -2887,7 +2887,7 @@ let mangasDB = [
     },
     {
       id: 3,
-      nombre: "Tomo 2",
+      nombre: "Tomo 3",
       imagen: "/mangas/josei/nana/tomo-3/01.jpeg",
       paginas: [
         "/mangas/josei/nana/tomo-3/01.jpeg",
